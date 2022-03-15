@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+header {
+  background-color: rgb(0, 89, 255);
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  margin: 0.75rem;
+  padding: 0.25rem;
+}
+
+li {
+  margin-left: 1rem;
+  font-weight: 900;
+  background-color: aqua;
+  padding: 0.5rem 1rem;
+  display: block;
+  width: fit-content;
+}
+
+li:nth-child(2n) {
+  background-color: rgb(0, 163, 163);
+}
+
+.removeMark {
+  background-color: red;
+  padding: 0.1rem 0.25rem;
+  border-radius: 5px;
+}
+
+.completeMark {
+  background-color: green;
+  padding: 0.1rem 0.15rem;
+  border-radius: 5px;
+}
